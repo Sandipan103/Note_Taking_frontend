@@ -1,0 +1,37 @@
+.Title {
+  box-sizing: border-box;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(252, 161, 82);
+  color: #fff;
+  font-weight: 1000;
+  font-size: 35px;
+  font-family: "Merriweather", serif;
+  font-family: "Playfair", serif;
+}
+
+.c1 {
+  width: 45%;
+  margin: 0 auto;
+  cursor: pointer;
+  transition: transform 0.5s, box-shadow 0.5s;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+}
+
+.c1:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.card {
+  position: relative;
+}
+
+.add-icon-container {
+  position: absolute;
+  right: -12px;
+  bottom: -12px;
+}
